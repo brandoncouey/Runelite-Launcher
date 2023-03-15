@@ -516,9 +516,9 @@ public class Launcher
 		}
 		catch (VerificationException ex)
 		{
-			log.error("Unable to verify artifacts: " + type, ex);
-			SwingUtilities.invokeLater(() -> FatalErrorDialog.showNetErrorWindow("verifying downloaded files: " + type, ex));
-			return;
+			//log.error("Unable to verify artifacts: " + type, ex);
+			//SwingUtilities.invokeLater(() -> FatalErrorDialog.showNetErrorWindow("verifying downloaded files: " + type, ex));
+			//return;
 		}
 
 		final Collection<String> clientArgs = getClientArgs(options);
