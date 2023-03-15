@@ -210,7 +210,7 @@ public class FatalErrorDialog extends JDialog
 		{
 			new FatalErrorDialog("{name} was unable to verify the security of its connection to the internet while " +
 				action + ". You may have a misbehaving antivirus, internet service provider, a proxy, or an incomplete" +
-				" java installation.")
+				" java installation. [" + action + "]")
 				.open();
 			return;
 		}
