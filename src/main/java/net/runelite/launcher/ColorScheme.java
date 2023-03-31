@@ -4,11 +4,11 @@ import java.awt.Color;
 
 public class ColorScheme
 {
-	/* The blue color used for the branding's accents */
-	public static final Color BRAND = new Color(220, 138, 0);
+	/* The red color used for the branding's accents */
+	public static final Color BRAND = new Color(216, 56, 2);
 
-	/* The blue color used for the branding's accents, with lowered opacity */
-	public static final Color BRAND_TRANSPARENT = new Color(220, 138, 0, 120);
+	/* The red color used for the branding's accents, with lowered opacity */
+	public static final Color BRAND_TRANSPARENT = new Color(216, 56, 2, 120);
 
 
 	public static final Color DARK_GRAY_COLOR = new Color(40, 40, 40);
